@@ -5,9 +5,11 @@ coin.txt
 cloud.txt
 brick.txt
 goomba.txt
-orange-platform.txt
+platform-orange.txt
 grass-big.txt
 grass-small.txt
+brick-question.txt
+stage-pink.txt
 
 #
 [OBJECTS]
@@ -21,9 +23,20 @@ grass-small.txt
 #Small-Grass
 6	200	160	48	16	1	81000	81000	81000
 
+#Pink-Stage
+8 	302	127	47	15	3	101000	102000	103000	
+
 # MARIO
 0	120	10
 
 #Platform
 5 	5	173	16	16	39	61000	62000	63000
+
+#Question-Brick
+7	220	105
+7	236	105	
+
+7	270	50
+7	286	50
+
 
