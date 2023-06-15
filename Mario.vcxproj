@@ -142,11 +142,13 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Goomba.cpp" />
+    <ClCompile Include="Grass.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mario.cpp" />
     <ClCompile Include="Platform.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="Portal.cpp" />
+    <ClCompile Include="QuestionBrick.cpp" />
     <ClCompile Include="SampleKeyEventHandler.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Sprites.cpp" />
@@ -165,11 +167,13 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Goomba.h" />
+    <ClInclude Include="Grass.h" />
     <ClInclude Include="KeyEventHandler.h" />
     <ClInclude Include="Mario.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="PlayScene.h" />
     <ClInclude Include="Portal.h" />
+    <ClInclude Include="QuestionBrick.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SampleKeyEventHandler.h" />
     <ClInclude Include="Scene.h" />
