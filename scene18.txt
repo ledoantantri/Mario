@@ -6,14 +6,24 @@ cloud.txt
 brick.txt
 goomba.txt
 orange-platform.txt
+grass-big.txt
+grass-small.txt
+
 #
 [OBJECTS]
 # type	x	y	extra_settings per object type
 # type: 0 = Mario , 1 = Brick, 2 = Goomba, 3 = Koopas
 # See OBJECT_TYPE constants in AssetIDs.h
 
+#Big-Grass
+6	100	132	128	64	1	76000	76000	76000
+
+#Small-Grass
+6	200	160	48	16	1	81000	81000	81000
+
 # MARIO
 0	120	10
 
 #Platform
-5 	5	180	16	16	39	61000	62000	63000
+5 	5	173	16	16	39	61000	62000	63000
+
