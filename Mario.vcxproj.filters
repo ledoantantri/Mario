@@ -16,159 +16,189 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="MarioGame\Header Files\Objects">
+      <UniqueIdentifier>{1496fe66-cba0-441b-918d-2b735a55ba72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarioGame\Source Files\Objects">
+      <UniqueIdentifier>{24e9ff5e-44a8-4874-9d74-a3ad6bfa90ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarioGame\Header Files\GameHandling">
+      <UniqueIdentifier>{6f7243b1-1ff1-4b60-842a-eb4e7af53d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarioGame\Header Files\GameUtils">
+      <UniqueIdentifier>{1d05a018-3a64-4a54-a2eb-a9965816131e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarioGame\Source Files\GameHandling">
+      <UniqueIdentifier>{c5f17a41-512c-464d-8763-2b7104e1c00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarioGame\Source Files\GameUtils">
+      <UniqueIdentifier>{1c587517-1416-4751-ab60-ef927b25c3df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Mario.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Animation.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Animations.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Brick.cpp">
-      <Filter>MarioGame\Source Files</Filter>
+      <Filter>MarioGame\Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="Coin.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="debug.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject.cpp">
-      <Filter>MarioGame\Source Files</Filter>
+      <Filter>MarioGame\Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="Goomba.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SampleKeyEventHandler.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Textures.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Collision.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayScene.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Portal.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sprite.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sprites.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Platform.cpp">
-      <Filter>MarioGame\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Utils.cpp">
-      <Filter>MarioGame\Source Files</Filter>
+      <Filter>MarioGame\Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="Grass.cpp">
-      <Filter>MarioGame\Source Files</Filter>
+      <Filter>MarioGame\Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>MarioGame\Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="QuestionBrick.cpp">
-      <Filter>MarioGame\Source Files</Filter>
+      <Filter>MarioGame\Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="StageShadow.cpp">
+      <Filter>MarioGame\Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="Stage.cpp">
-      <Filter>MarioGame\Source Files</Filter>
+      <Filter>MarioGame\Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>MarioGame\Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>MarioGame\Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>MarioGame\Source Files\GameHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>MarioGame\Source Files\GameHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleKeyEventHandler.cpp">
+      <Filter>MarioGame\Source Files\GameHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Animations.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>MarioGame\Source Files\GameUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Chimney.cpp">
+      <Filter>MarioGame\Source Files\Objects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Animations.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AssetIDs.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Brick.h">
-      <Filter>MarioGame\Header Files</Filter>
+      <Filter>MarioGame\Header Files\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Coin.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="debug.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject.h">
-      <Filter>MarioGame\Header Files</Filter>
+      <Filter>MarioGame\Header Files\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Goomba.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Mario.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SampleKeyEventHandler.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Textures.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationFrame.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Collision.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="KeyEventHandler.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayScene.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Portal.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprites.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>MarioGame\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Utils.h">
-      <Filter>MarioGame\Header Files</Filter>
+      <Filter>MarioGame\Header Files\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Grass.h">
-      <Filter>MarioGame\Header Files</Filter>
+      <Filter>MarioGame\Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>MarioGame\Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>MarioGame\Header Files\Objects</Filter>
     </ClInclude>
     <ClInclude Include="QuestionBrick.h">
-      <Filter>MarioGame\Header Files</Filter>
+      <Filter>MarioGame\Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="StageShadow.h">
+      <Filter>MarioGame\Header Files\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Stage.h">
-      <Filter>MarioGame\Header Files</Filter>
+      <Filter>MarioGame\Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>MarioGame\Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>MarioGame\Header Files\GameHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>MarioGame\Header Files\GameHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.h">
+      <Filter>MarioGame\Header Files\GameHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleKeyEventHandler.h">
+      <Filter>MarioGame\Header Files\GameHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Animations.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetIDs.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>MarioGame\Header Files\GameUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Chimney.h">
+      <Filter>MarioGame\Header Files\Objects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
