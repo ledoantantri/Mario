@@ -7,6 +7,7 @@
 75000	0	96	15	111	30
 
 76000	16	352	143	415	40
+77000	816	336	1007	399	40
 
 # ani_id	sprite1_id	time1	sprite2_id	time2	...
 [ANIMATIONS]
